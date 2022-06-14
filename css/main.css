@@ -1,4 +1,17 @@
 
+/* Import Fonts */ 
+
+@font-face {
+    font-family: Lobster-Regular;
+    src: url(../fonts/Lobster-Regular.ttf);
+}
+
+@font-face {
+    font-family: SourceCodePro;
+    src: url(../fonts/SourceCodePro.ttf);
+}
+
+
 /* Default Setting */
 
 * {
@@ -24,14 +37,22 @@ footer{
 }
 
 h1 {
-    font-size: 4em;
+    font-family: Lobster-Regular;
+    font-size: 6em;
     padding-top: 40px;
 }
 
+h2 {
+    font-size: 3em;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    text-shadow: #0A0A0A 0px 2px 5px;
+}
 
-
-
-/* Class Selektoren */
+h3 {
+    font-family: Lobster-Regular;
+}
 
 
 /* ID Selektoren */
@@ -46,8 +67,30 @@ h1 {
 }
 
 #adresse {
-    padding: 20px;
     font-size: 2em;
+    padding: 50px;
+}
+
+
+/* Class Selektoren */
+
+.leistungenBilder {
+    height: 400px;
+    width: 400px;
+}
+
+.leistungen {
+    font-size: 2em;
+    font-family: SourceCodePro;
+    align-items: center;
+    text-align: center;
+    text-shadow: #0A0A0A 0px 2px 5px;
+}
+
+.liste {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 20px;
 }
 
 
