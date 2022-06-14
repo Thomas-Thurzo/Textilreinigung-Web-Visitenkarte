@@ -1,0 +1,56 @@
+
+/* Default Setting */
+
+* {
+    margin: 0;
+    padding: 0; 
+    border: 0; 
+}
+
+
+/* Tag Selektoren */
+
+header, footer {
+    background-color: #06283D;
+    color: white;
+}
+
+header {
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+h1 {
+    font-size: 4em;
+    padding-top: 40px;
+}
+
+
+
+
+/* Class Selektoren */
+
+
+/* ID Selektoren */
+
+#titelbild {
+    background-image: url(../img/bild4.png);
+    width: 100%;
+    height: 540px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#adresse {
+    padding: 20px;
+    font-size: 2em;
+}
+
+
+
+
+
